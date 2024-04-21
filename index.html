@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/dcd4357263.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+
+    <link rel="stylesheet" href="./index.css" />
+    <title>Visual Form Designer</title>
+  </head>
+  <body>
+    <header id="header">
+      <i class="fa-solid fa-bars bar-icon"></i>
+      <h1>Form designer</h1>
+      <button id="save">Save</button>
+    </header>
+    <section id="container">
+      <section id="sidebar">
+        <article id="sidebar-heading">
+          <h3>Components</h3>
+          <i class="fa-solid fa-x close-icon"></i>
+        </article>
+        <section id="button-section">
+          <button id="input-btn">
+            Input <i class="fa-solid fa-plus plus-icon"></i>
+          </button>
+          <button id="select-btn">
+            Select <i class="fa-solid fa-plus plus-icon"></i>
+          </button>
+          <button id="textarea-btn">
+            Textarea <i class="fa-solid fa-plus plus-icon"></i>
+          </button>
+        </section>
+      </section>
+      <section id="form-section">
+        <section id="form-container"></section>
+      </section>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
